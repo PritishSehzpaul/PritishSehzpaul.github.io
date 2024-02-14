@@ -568,10 +568,12 @@ progress {
 .list-inline {
   padding-left: 0;
   list-style: none;
+  line-height: 2.5; 
 }
 
 .list-inline-item {
   display: inline-block;
+  line-height: 1.5; 
 }
 .list-inline-item:not(:last-child) {
   margin-right: 0.5rem;
@@ -11432,4 +11434,11 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+
+/* ---- */
+.pill {
+  background-color: var(--bs-orange);
+  color: var(--bs-white);
+  padding: 4px;
 }
